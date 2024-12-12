@@ -1,0 +1,134 @@
+@import '../../common/css/coral/_coral-fluid-mixins.scss';
+
+section.calendar > article .contenu {
+	h3 {
+		margin-bottom: 1em;
+	}
+
+	.calendar-container {
+		display: flex;
+		flex-direction: column;
+
+		.calendar-colors {
+			@include property(padding-block, 24px);
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			@include property(gap, 24px);
+
+			.color {
+				flex-shrink: 0;
+				display: flex;
+				gap: 1em;
+				align-items: center;
+
+				&__mark {
+					display: block;
+					@include property(width, 44px);
+					height: 19px;
+					border-radius: 8px;
+				}
+			}
+
+			.color.holydays {
+				.color__mark {
+					background: #0a9bd4;
+				}
+			}
+
+			.color.advantage {
+				.color__mark {
+					background: #f9cb9c;
+				}
+			}
+
+			.color.disadvantage {
+				.color__mark {
+					background: #b5d7a8;
+				}
+			}
+		}
+
+		.months {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			@include property(gap, 24px);
+		}
+
+		.month {
+			display: flex;
+			flex-direction: column;
+			border-radius: 20px;
+			padding: 1em;
+
+			.month-head {
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				line-height: 1;
+				margin-bottom: 1em;
+				padding-inline: 0.5em;
+
+				.month__name {
+					font-weight: 600;
+					@include font(20px);
+				}
+			}
+
+			.day-names {
+				text-transform: uppercase;
+				display: grid;
+				grid-template-columns: repeat(7, 1fr);
+				justify-items: center;
+
+				> div {
+					padding: 0.5em;
+				}
+			}
+
+			.days {
+				display: grid;
+				grid-template-columns: repeat(7, 1fr);
+				justify-items: center;
+
+				.day {
+					width: 100%;
+					height: 100%;
+					text-align: center;
+					padding: 0.5em;
+					font-size: 1em;
+				}
+
+				.day.muted {
+					opacity: 0.2;
+				}
+
+				.day.weekend {
+					color: #ee762d;
+				}
+
+				.day.holiday {
+					background: #0a9bd4;
+					color: #fff;
+				}
+			}
+
+			.days .holiday {
+				border-top-left-radius: 10px;
+				border-bottom-left-radius: 10px;
+			}
+			.days .holiday + .holiday {
+				border-radius: 0;
+			}
+		}
+
+		.month.disadvantage {
+			background: linear-gradient(109deg, #f9cb9c -28.44%, #fff7cf 122.57%),
+				#d9d9d9;
+		}
+
+		.month.advantage {
+			background: linear-gradient(109deg, #bdeaac -28.44%, #ebfde5 122.57%);
+		}
+	}
+}

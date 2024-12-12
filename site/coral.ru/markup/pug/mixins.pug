@@ -1,0 +1,25 @@
+mixin dayTypes(data)
+	-const dayTypes = data
+	each day in dayTypes
+		.color(class=day.name)
+			span.color__mark
+			span.color__title=day.value
+
+mixin dayOfWeek(number,	isWeekend,	isHoliday,	isMuted)
+	.day(class=(isWeekend ?	'weekend'	:	'')	+	(isMuted ?	'	muted'	:	'')	||	(isHoliday ?	'holiday'	:	''))= number
+
+mixin month(month, day_of_week)
+	.month(class=month.month_type)
+		.month-head 
+			.month__name=month.name
+			.month__workdays 
+				span Рабочих дней: #{month.day_to_work}
+		.day-names
+			each name in day_of_week
+				div=name	
+		.days
+			-const lastIdx =  month.months_days.length - 1
+			each day in month.months_days
+				-const {number, isWeekend, isHoliday, isMuted} = day
+				+dayOfWeek(number, isWeekend, isHoliday, isMuted)
+

@@ -1,0 +1,1006 @@
+{
+	"locals": {
+		"day_of_week": [
+			"Пн",
+			"Вт",
+			"Ср",
+			"Чт",
+			"Пт",
+			"Сб",
+			"Вс"
+		],
+		"day_type": [
+			{
+				"name": "holydays",
+				"value": "Праздничные дни"
+			},
+			{
+				"name": "advantage",
+				"value": "Невыгодный месяц"
+			},
+			{
+				"name": "disadvantage",
+				"value": "Выгодный месяц"
+			}
+		],
+		"months": [
+			{
+				"name": "Январь",
+				"month_type": "disadvantage",
+				"day_to_work": 17,
+				"months_days": [
+					{
+						"number": 30,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 31,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 1,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 2,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 5,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 6,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 8,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 9,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 10,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 11,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 12,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 13,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 14,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 15,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 16,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 17,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 18,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 19,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 20,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 21,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 22,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 23,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 24,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 25,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 26,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 27,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 28,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 29,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 30,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 31,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 1,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 2,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 5,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 6,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 8,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 9,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					}
+				]
+			},
+			{
+				"name": "Февраль",
+				"month_type": "advantage",
+				"day_to_work": 20,
+				"months_days": [
+					{
+						"number": 27,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 28,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 29,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 30,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 31,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 1,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 2,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 5,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 6,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 8,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 9,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 10,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 11,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 12,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 13,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 14,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 15,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 16,
+						"isWeekend": true,
+						"isHoliday": false
+					},
+					{
+						"number": 17,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 18,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 19,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 20,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 21,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 22,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 23,
+						"isWeekend": false,
+						"isHoliday": true
+					},
+					{
+						"number": 24,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 25,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 26,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 27,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 28,
+						"isWeekend": false,
+						"isHoliday": false
+					},
+					{
+						"number": 1,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 2,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 5,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 6,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 8,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 9,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					}
+				]
+			},
+			{
+				"name": "Март",
+				"month_type": "advantage",
+				"day_to_work": 21,
+				"months_days": [
+					{
+						"number": 24,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 25,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 26,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 27,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 28,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 1,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 2,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 5,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 6,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 8,
+						"isWeekend": false,
+						"isHoliday": true,
+						"isMuted": false
+					},
+					{
+						"number": 9,
+						"isWeekend": false,
+						"isHoliday": true,
+						"isMuted": false
+					},
+					{
+						"number": 10,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 11,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 12,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 13,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 14,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 15,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 16,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 17,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 18,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 19,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 20,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 21,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 22,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 23,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 24,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 25,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 26,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 27,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 28,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 29,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 30,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 31,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 1,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 2,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 5,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 6,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					}
+				]
+			},
+			{
+				"name": "Апрель",
+				"month_type": "advantage",
+				"day_to_work": 22,
+				"months_days": [
+					{
+						"number": 31,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 1,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 2,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 3,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 4,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 5,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 6,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 8,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 9,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 10,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 11,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 12,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 13,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 14,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 15,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 16,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 17,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 18,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 19,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 20,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 21,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 22,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 23,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 24,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 25,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 26,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 27,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 28,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 29,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 30,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": false
+					},
+					{
+						"number": 1,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 2,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 3,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 4,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 5,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 6,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 7,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 8,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 9,
+						"isWeekend": false,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 10,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					},
+					{
+						"number": 11,
+						"isWeekend": true,
+						"isHoliday": false,
+						"isMuted": true
+					}
+				]
+			}
+		]
+	}
+}
