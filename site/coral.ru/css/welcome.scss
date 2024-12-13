@@ -1,0 +1,48 @@
+@import '../../common/css/coral/_coral-fluid-mixins.scss';
+
+section.welcome > article .contenu {
+	.container {
+		display: flex;
+
+		@media(max-width: 768px) {
+			flex-direction: column;
+		}
+
+		> * {
+			flex: 1;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			@include property(gap, 24px);
+			@include property(padding, 32px);
+			@include property(border-top-left-radius, 20px);
+			@include property(border-bottom-left-radius, 20px);
+			background: #fff;
+
+			@media(max-width: 768px) {
+				border-radius: 0;
+				@include property(border-top-left-radius, 20px);
+				@include property(border-top-right-radius, 20px);
+			}
+		}
+
+		.visual {
+			margin: 0;
+			@include property(border-top-right-radius, 20px);
+			@include property(border-bottom-right-radius, 20px);
+			overflow: hidden;
+
+			@media(max-width: 768px) {
+				border-radius: 0;
+				@include property(border-bottom-left-radius, 20px);
+				@include property(border-bottom-right-radius, 20px);
+			}
+
+			img {
+				display: block;
+			}
+		}
+	}}

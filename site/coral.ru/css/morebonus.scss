@@ -1,0 +1,77 @@
+@import '../../common/css/coral/_coral-fluid-mixins.scss';
+
+section.morebonus > article .contenu {
+	.container {
+		@include property(padding, 40px);
+		@include property(border-radius, 20px);
+		display: flex;
+		flex-direction: column;
+		@include property(gap, 24px);
+		background: url("/site/coral.ru/assets/chemodan.png"),#fff;
+		background-repeat: no-repeat;
+		background-size: 44%;
+		background-position: right bottom;
+
+		@media(max-width: 768px) {
+			@include property(padding-block, 24px);
+			padding-inline: 1em;
+
+			background: #fff
+		}
+
+		.lists {
+			display: flex;
+			justify-content: space-between;
+			background: rgba(241, 247, 251, .8);
+			@include property(padding-block, 40px);
+			@include property(padding-inline, 32px);
+			@include property(border-radius, 20px);
+
+			@media(max-width: 768px) {
+				flex-direction: column;
+				@include property(padding-block, 24px);
+				padding-inline: 1em;
+			}
+
+			> ul {
+				flex: 1;
+				display: flex;
+				flex-direction: column;
+				@include property(gap, 24px);
+				padding-left: 1.5em;
+				list-style: none;
+				margin: 0;
+
+				@media(max-width: 768px) {
+					padding-left: 0;
+				}
+
+				li {
+					position: relative;
+					display: flex;
+					align-items: center;
+					gap: 1em;
+
+					&:before {
+						content: '';
+						display: block;
+						@include property(width, 12px);
+						aspect-ratio: 1;
+						background: #0093D0;
+						border-radius: 100%;
+					}
+				}
+			}
+		}
+
+		.attention {
+			width: 60%;
+			@include font(20px);
+			font-weight: 600;
+
+			@media(max-width: 768px) {
+				width: 100%;
+			}
+		}
+	}
+}

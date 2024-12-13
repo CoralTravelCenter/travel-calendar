@@ -9,5 +9,8 @@
 		'/site/coral.ru/markup/main.html',
 		'/site/coral.ru/markup/hero-text.html',
 		'/site/coral.ru/markup/pug/calendar.pug',
+		'/site/coral.ru/markup/morebonus.html',
+		'/site/coral.ru/markup/welcome.html',
+		'/site/coral.ru/markup/contacts.html'
 	],
 }
